@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  abcdefihij
+
+
+  <div id="p12" style="position: absolute; width: 50px; height: 50px; background-color: rgb(255, 3, 3); visibility: hidden;">p12</div>
+  <div id="p11" style="position: absolute; width: 50px; height: 50px; background-color: rgb(255, 3, 3);  visibility: hidden;">p11</div>
+
+  <div id="p21" style="position: absolute; width: 400px; height: 50px; background-color: rgb(255, 3, 3);">p21</div>
+
+
+  <button onclick="createShip()">Создать корабль</button>
+  <table style="margin-top: 100px;">
+    <tr>
+      <td id="a1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i1" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j1" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i2" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j2" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i3" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j3" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i4" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j4" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i5" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j5" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i6" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j6" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i7" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j7" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i8" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j8" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i9" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j9" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+    <tr>
+      <td id="a10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="b10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="c10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="d10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="e10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="f10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="g10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="h10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="i10" style="width: 50px; height: 50px; background-color: black"></td>
+      <td id="j10" style="width: 50px; height: 50px; background-color: black"></td>
+    </tr>
+  </table>
+
+
+
+  <script src="field.js"></script>
+  <script src="p11.js"></script>
+  <script src="p12.js"></script>
+
+  <script src="p21x.js"></script>
+
+  <script>
+
+    let shipsList = ['p11', 'p12']
+    function createShip() { //создание нового кораля
+      let index = 0
+
+      for (index = 0; index < shipsList.length; index++) { //поиск уже созданных кораблей в черном списке
+        if (blackList[shipsList[index]].length === 0) { //найден индекс shipslist первого несозданного корабля
+          break
+        }
+      }
+      document.getElementById(`${shipsList[index]}`).style.visibility = 'visible' // отображение
+      // if(blackList[])
+    }
+
+  </script>
+</body>
+
+</html>
